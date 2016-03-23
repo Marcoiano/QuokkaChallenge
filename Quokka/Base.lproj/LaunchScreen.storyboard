@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quokkaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YRD-LB-gxy">
+                                <rect key="frame" x="230" y="118" width="140" height="119"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="9Hr-9m-dX7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quokka Challenge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96e-3R-m8m">
+                                <rect key="frame" x="189" y="260" width="221" height="22"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="00W-Aa-g2V"/>
+                                    <constraint firstAttribute="width" constant="221" id="aOr-eg-fzi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YRD-LB-gxy" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="98" id="Aj7-9m-VZB"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="96e-3R-m8m" secondAttribute="bottom" constant="318" id="KKp-aF-hQf"/>
+                            <constraint firstItem="96e-3R-m8m" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KOg-Xk-euq"/>
+                            <constraint firstItem="96e-3R-m8m" firstAttribute="top" secondItem="YRD-LB-gxy" secondAttribute="bottom" constant="23" id="nWm-nx-5bd"/>
+                            <constraint firstItem="YRD-LB-gxy" firstAttribute="centerX" secondItem="96e-3R-m8m" secondAttribute="centerX" id="xv3-yJ-etv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="quokkaLogo" width="310" height="310"/>
+    </resources>
+</document>
